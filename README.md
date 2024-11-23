@@ -4,6 +4,9 @@ This repository contains the open source code, and plans for the LEM sounder dev
 
 I should add some informations here
 
+## Construction of LEM
+
+
 ## Operating the LEM 
 ### LEM commands
 
@@ -14,3 +17,12 @@ The RTK messages can be passed to the LEM_Base over Serial UART (3.3V)  or USB. 
 
 ![image](https://github.com/user-attachments/assets/1cff1870-c0f9-4925-81b3-5b921f9edefc)
 ![image](https://github.com/user-attachments/assets/3f3f5b83-de97-4ef5-9f18-0094e748522a)
+
+
+## Data download
+
+###	ESP32 data: Laser, IMU, general
+
+###	LEM raw data
+
+##	Data Postprocessing
