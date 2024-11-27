@@ -1,0 +1,1 @@
+This project was created with FreeCAD version 0.21.2 (November 2024)

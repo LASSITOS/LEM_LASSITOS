@@ -1,0 +1,995 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>G:\My Drive\KiCAD\CSwitch_CalCoilV2\CSwitch_CalCoilV2.kicad_sch</source>
+    <date>3/4/2024 2:32:07 PM</date>
+    <tool>Eeschema 7.0.8</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>CSwitch_CalCoilV2.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="H1">
+      <value> </value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>24a78db9-abce-441f-9a18-330d172b3dff</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value> </value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>26daf90a-f962-4f87-85c7-a71cecff83b5</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value> </value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c1d22eb0-a48c-4b64-8a2e-46249b84383c</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value> </value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a1eaffd3-7e48-43f4-84b2-b293624bf9ba</tstamps>
+    </comp>
+    <comp ref="H5">
+      <value> </value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>403894e7-4574-46b0-b42d-f93eff4d96b0</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>5-104363-3</value>
+      <footprint>library_components:5-104363-3</footprint>
+      <libsource lib="5-104363-3" part="5-104363-3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eccde083-979f-4153-81c0-0aa9c627ac74</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>5-104363-3</value>
+      <footprint>library_components:5-104363-3</footprint>
+      <libsource lib="5-104363-3" part="5-104363-3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f3aea54-e4af-48aa-b1e2-5c60d0cf2437</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c796a6e-0abc-4c3f-aa85-d70e4d80508c</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>BM04B-SRSS-TB(LF)(SN)</value>
+      <footprint>library_components:CONN_BM04B-SRSS-TB(LF)(SN)</footprint>
+      <fields>
+        <field name="MANUFACTURER">JST</field>
+        <field name="PARTREV">N/A</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="BM04B-SRSS-TB_LF__SN_" part="BM04B-SRSS-TB(LF)(SN)" description=""/>
+      <property name="MANUFACTURER" value="JST"/>
+      <property name="PARTREV" value="N/A"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>83bb53f9-8cab-4c89-adf4-b49084e6dcda</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>BM04B-SRSS-TB(LF)(SN)</value>
+      <footprint>library_components:CONN_BM04B-SRSS-TB(LF)(SN)</footprint>
+      <fields>
+        <field name="MANUFACTURER">JST</field>
+        <field name="PARTREV">N/A</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="BM04B-SRSS-TB_LF__SN_" part="BM04B-SRSS-TB(LF)(SN)" description=""/>
+      <property name="MANUFACTURER" value="JST"/>
+      <property name="PARTREV" value="N/A"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96ec28d0-6232-4de2-9ac7-4d7bb14a67b8</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>12</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="Jumper_3_Bridged12" description="Jumper, 3-pole, pins 1+2 closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <property name="ki_description" value="Jumper, 3-pole, pins 1+2 closed/bridged"/>
+      <property name="ki_keywords" value="Jumper SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4abb1555-8418-4b1b-9cb7-750ff351cd71</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>12</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="Jumper_3_Bridged12" description="Jumper, 3-pole, pins 1+2 closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <property name="ki_description" value="Jumper, 3-pole, pins 1+2 closed/bridged"/>
+      <property name="ki_keywords" value="Jumper SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d45602d1-b7d4-413a-a0a7-1e89cb9ccb07</tstamps>
+    </comp>
+    <comp ref="JP3">
+      <value>12</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="Jumper_3_Bridged12" description="Jumper, 3-pole, pins 1+2 closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <property name="ki_description" value="Jumper, 3-pole, pins 1+2 closed/bridged"/>
+      <property name="ki_keywords" value="Jumper SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c095c770-f4e8-4faa-be37-b96ab0732d3d</tstamps>
+    </comp>
+    <comp ref="LED1">
+      <value>Blue</value>
+      <footprint>library_components:LEDC2012X85N</footprint>
+      <datasheet>http://www.kingbrightusa.com/images/catalog/SPEC/APT2012LZGCK.pdf</datasheet>
+      <fields>
+        <field name="Description">Standard LEDs - SMD 2.0X1.2MM LOW CRNT</field>
+        <field name="Height">0.85</field>
+        <field name="Manufacturer_Name">Kingbright</field>
+        <field name="Manufacturer_Part_Number">APT2012LZGCK</field>
+        <field name="Mouser Part Number">604-APT2012LZGCK</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Kingbright/APT2012LZGCK?qs=6oMev5NRZMHOosFiXb%2F3qw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="APT2012LZGCK" description="Standard LEDs - SMD 2.0X1.2MM LOW CRNT"/>
+      <property name="Description" value="Standard LEDs - SMD 2.0X1.2MM LOW CRNT"/>
+      <property name="Height" value="0.85"/>
+      <property name="Mouser Part Number" value="604-APT2012LZGCK"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Kingbright/APT2012LZGCK?qs=6oMev5NRZMHOosFiXb%2F3qw%3D%3D"/>
+      <property name="Manufacturer_Name" value="Kingbright"/>
+      <property name="Manufacturer_Part_Number" value="APT2012LZGCK"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <property name="ki_description" value="Standard LEDs - SMD 2.0X1.2MM LOW CRNT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>46f456e2-8991-4e10-8a67-d64871a8a521</tstamps>
+    </comp>
+    <comp ref="LED2">
+      <value>REd</value>
+      <footprint>library_components:LEDC2012X85N</footprint>
+      <datasheet>http://www.kingbrightusa.com/images/catalog/SPEC/APT2012LZGCK.pdf</datasheet>
+      <fields>
+        <field name="Description">Standard LEDs - SMD 2.0X1.2MM LOW CRNT</field>
+        <field name="Height">0.85</field>
+        <field name="Manufacturer_Name">Kingbright</field>
+        <field name="Manufacturer_Part_Number">APT2012LZGCK</field>
+        <field name="Mouser Part Number">604-APT2012LZGCK</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Kingbright/APT2012LZGCK?qs=6oMev5NRZMHOosFiXb%2F3qw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="APT2012LZGCK" description="Standard LEDs - SMD 2.0X1.2MM LOW CRNT"/>
+      <property name="Description" value="Standard LEDs - SMD 2.0X1.2MM LOW CRNT"/>
+      <property name="Height" value="0.85"/>
+      <property name="Mouser Part Number" value="604-APT2012LZGCK"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Kingbright/APT2012LZGCK?qs=6oMev5NRZMHOosFiXb%2F3qw%3D%3D"/>
+      <property name="Manufacturer_Name" value="Kingbright"/>
+      <property name="Manufacturer_Part_Number" value="APT2012LZGCK"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <property name="ki_description" value="Standard LEDs - SMD 2.0X1.2MM LOW CRNT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7f223f55-d10d-4dbb-ac77-777ee7989266</tstamps>
+    </comp>
+    <comp ref="LED3">
+      <value>Yellow</value>
+      <footprint>library_components:LEDC2012X85N</footprint>
+      <datasheet>http://www.kingbrightusa.com/images/catalog/SPEC/APT2012LZGCK.pdf</datasheet>
+      <fields>
+        <field name="Description">Standard LEDs - SMD 2.0X1.2MM LOW CRNT</field>
+        <field name="Height">0.85</field>
+        <field name="Manufacturer_Name">Kingbright</field>
+        <field name="Manufacturer_Part_Number">APT2012LZGCK</field>
+        <field name="Mouser Part Number">604-APT2012LZGCK</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Kingbright/APT2012LZGCK?qs=6oMev5NRZMHOosFiXb%2F3qw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="APT2012LZGCK" description="Standard LEDs - SMD 2.0X1.2MM LOW CRNT"/>
+      <property name="Description" value="Standard LEDs - SMD 2.0X1.2MM LOW CRNT"/>
+      <property name="Height" value="0.85"/>
+      <property name="Mouser Part Number" value="604-APT2012LZGCK"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Kingbright/APT2012LZGCK?qs=6oMev5NRZMHOosFiXb%2F3qw%3D%3D"/>
+      <property name="Manufacturer_Name" value="Kingbright"/>
+      <property name="Manufacturer_Part_Number" value="APT2012LZGCK"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <property name="ki_description" value="Standard LEDs - SMD 2.0X1.2MM LOW CRNT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>44fe0c4c-8fab-4f7c-8a8b-8beabd99d086</tstamps>
+    </comp>
+    <comp ref="LED4">
+      <value>Green</value>
+      <footprint>library_components:LEDC2012X85N</footprint>
+      <datasheet>http://www.kingbrightusa.com/images/catalog/SPEC/APT2012LZGCK.pdf</datasheet>
+      <fields>
+        <field name="Description">Standard LEDs - SMD 2.0X1.2MM LOW CRNT</field>
+        <field name="Height">0.85</field>
+        <field name="Manufacturer_Name">Kingbright</field>
+        <field name="Manufacturer_Part_Number">APT2012LZGCK</field>
+        <field name="Mouser Part Number">604-APT2012LZGCK</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Kingbright/APT2012LZGCK?qs=6oMev5NRZMHOosFiXb%2F3qw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="APT2012LZGCK" description="Standard LEDs - SMD 2.0X1.2MM LOW CRNT"/>
+      <property name="Description" value="Standard LEDs - SMD 2.0X1.2MM LOW CRNT"/>
+      <property name="Height" value="0.85"/>
+      <property name="Mouser Part Number" value="604-APT2012LZGCK"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Kingbright/APT2012LZGCK?qs=6oMev5NRZMHOosFiXb%2F3qw%3D%3D"/>
+      <property name="Manufacturer_Name" value="Kingbright"/>
+      <property name="Manufacturer_Part_Number" value="APT2012LZGCK"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <property name="ki_description" value="Standard LEDs - SMD 2.0X1.2MM LOW CRNT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e94e72a0-4809-4e1a-a263-e3d3c16f761a</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>200</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>07ea39da-3a87-44ee-9600-ec61e9a6145e</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>55ef8284-e2cd-474d-972e-bc27de1a3d02</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5937f63b-f242-407d-aa14-a23caab7588b</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8bfb6319-5d9d-4706-9dd0-305b3e46d1b4</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>17a622b3-047f-45ac-aee3-4a804b6e58b0</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8821cc09-e480-44fd-8cf7-85480341daf7</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00769e91-e6ed-45da-a7ed-f790d8c87921</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>200</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>610d292b-f29b-4dd2-bb51-dd5e2b3f0166</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>200</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>691c47e8-1156-4354-ae0c-9c92b830ad07</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc0da055-634b-4072-a894-1e5af90117da</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b9eb7275-12f7-426a-bb95-4d75c439cb67</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f4200803-7f03-4a47-bed6-ffbedc7f2f41</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>750</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fcf5f6d2-b0e7-403d-89d1-19cf1806ec83</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>750</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>008dddd7-f55c-4e33-a644-2a6adba48aa4</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>200</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b3c1e01-ec07-45c5-800b-046ac33fe8b7</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>325</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b535d58-b173-4bf1-8954-028ca6723daa</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>325</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f65355ad-349c-418b-8f13-d66ef58d1abd</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>37401e8a-b94b-4af1-8fe3-0dfbfda9657f</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a461580b-3404-4066-afb9-ddd06ef3b953</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>7.5</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e89db58e-a962-4562-be67-5b041fd8f4cf</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>75</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d2c8bb87-dd9c-4cc1-a359-cdfa69bf02e9</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>af7ed3a4-bf21-43ab-8bc6-c45e27c3f67b</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a5647144-3dfd-4bf8-a0d3-f2c31aaefe54</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9d09a5c-d297-49c8-a8f2-97e42ad904eb</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fcd55171-348f-4301-ab8f-c08c738ece94</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>549</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2cde07f5-1ab6-4e9c-902f-23502130e075</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>PCA8574</value>
+      <footprint>library_components:PCA8574PW_118</footprint>
+      <libsource lib="PCA8574PW_118" part="PCA8574PW_118" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>29436c93-b417-417c-a8f9-7d845febe908</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>TLP3553</value>
+      <footprint>library_components:TLP3553ATP1_F</footprint>
+      <libsource lib="TLP3553ATP1_F" part="TLP3553ATP1_F" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e2b05beb-b4ff-4825-948c-c5d3fff6a860</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>TLP3553</value>
+      <footprint>library_components:TLP3553ATP1_F</footprint>
+      <libsource lib="TLP3553ATP1_F" part="TLP3553ATP1_F" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d840bc7f-477b-45ca-a0a3-b764b5ff5cc1</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>TLP3553</value>
+      <footprint>library_components:TLP3553ATP1_F</footprint>
+      <libsource lib="TLP3553ATP1_F" part="TLP3553ATP1_F" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dbccc467-b8da-4cd6-94ff-6bf27797e76d</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>TLP3553</value>
+      <footprint>library_components:TLP3553ATP1_F</footprint>
+      <libsource lib="TLP3553ATP1_F" part="TLP3553ATP1_F" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CSwitch_CalCoilV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7c3083e-5a36-4ea6-8e1e-8767512713df</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="5-104363-3" part="5-104363-3">
+      <footprints>
+        <fp>CONN_5-104363-3_TYCO</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">5-104363-3</field>
+        <field name="Footprint">CONN_5-104363-3_TYCO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+        <pin num="4" name="4" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="BM04B-SRSS-TB_LF__SN_" part="BM04B-SRSS-TB(LF)(SN)">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">BM04B-SRSS-TB(LF)(SN)</field>
+        <field name="Footprint">CONN_BM04B-SRSS-TB(LF)(SN)</field>
+        <field name="MANUFACTURER">JST</field>
+        <field name="PARTREV">N/A</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+        <pin num="S2" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_3_Bridged12">
+      <description>Jumper, 3-pole, pins 1+2 closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*3Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_3_Bridged12</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="PCA8574PW_118" part="PCA8574PW_118">
+      <footprints>
+        <fp>TSSOP16_SOT403-1_NXP</fp>
+        <fp>TSSOP16_SOT403-1_NXP-M</fp>
+        <fp>TSSOP16_SOT403-1_NXP-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PCA8574PW_118</field>
+        <field name="Footprint">TSSOP16_SOT403-1_NXP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="P0" type="bidirectional"/>
+        <pin num="5" name="P1" type="bidirectional"/>
+        <pin num="6" name="P2" type="bidirectional"/>
+        <pin num="7" name="P3" type="bidirectional"/>
+        <pin num="8" name="VSS" type="power_in"/>
+        <pin num="9" name="P4" type="bidirectional"/>
+        <pin num="10" name="P5" type="bidirectional"/>
+        <pin num="11" name="P6" type="bidirectional"/>
+        <pin num="12" name="P7" type="bidirectional"/>
+        <pin num="13" name="*INT" type="output"/>
+        <pin num="14" name="SCL" type="input"/>
+        <pin num="15" name="SDA" type="bidirectional"/>
+        <pin num="16" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="APT2012LZGCK">
+      <description>Standard LEDs - SMD 2.0X1.2MM LOW CRNT</description>
+      <docs>http://www.kingbrightusa.com/images/catalog/SPEC/APT2012LZGCK.pdf</docs>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">APT2012LZGCK</field>
+        <field name="Footprint">LEDC2012X85N</field>
+        <field name="Datasheet">http://www.kingbrightusa.com/images/catalog/SPEC/APT2012LZGCK.pdf</field>
+        <field name="Description">Standard LEDs - SMD 2.0X1.2MM LOW CRNT</field>
+        <field name="Height">0.85</field>
+        <field name="Mouser Part Number">604-APT2012LZGCK</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Kingbright/APT2012LZGCK?qs=6oMev5NRZMHOosFiXb%2F3qw%3D%3D</field>
+        <field name="Manufacturer_Name">Kingbright</field>
+        <field name="Manufacturer_Part_Number">APT2012LZGCK</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TLP3553ATP1_F" part="TLP3553ATP1_F">
+      <footprints>
+        <fp>SOIC_3553ATP1_F_TOS</fp>
+        <fp>SOIC_3553ATP1_F_TOS-M</fp>
+        <fp>SOIC_3553ATP1_F_TOS-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLP3553ATP1_F</field>
+        <field name="Footprint">SOIC_3553ATP1_F_TOS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+        <pin num="4" name="4" type="unspecified"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="5-104363-3">
+      <uri>G:/My Drive/KiCAD/library_components/5-104363-3.kicad_sym</uri>
+    </library>
+    <library logical="BM04B-SRSS-TB_LF__SN_">
+      <uri>G:/My Drive/KiCAD/library_components/BM04B-SRSS-TB_LF__SN_.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Jumper.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="PCA8574PW_118">
+      <uri>G:/My Drive/KiCAD/library_components/PCA8574PW_118.lib</uri>
+    </library>
+    <library logical="SamacSys_Parts">
+      <uri>G:/My Drive/KiCAD/library_components/SamacSys_Parts.kicad_sym</uri>
+    </library>
+    <library logical="TLP3553ATP1_F">
+      <uri>G:/My Drive/KiCAD/library_components/TLP3553ATP1_F.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="J1" pin="4" pinfunction="4" pintype="unspecified"/>
+      <node ref="J2" pin="4" pinfunction="4" pintype="unspecified"/>
+      <node ref="J4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP3" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="VSS" pintype="power_in"/>
+    </net>
+    <net code="2" name="Net-(J4-SHIELD-PadS1)">
+      <node ref="J4" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J4" pin="S2" pinfunction="SHIELD" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(J5-SHIELD-PadS1)">
+      <node ref="J5" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J5" pin="S2" pinfunction="SHIELD" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(JP1-C)">
+      <node ref="JP1" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="A0" pintype="input"/>
+    </net>
+    <net code="5" name="Net-(JP2-C)">
+      <node ref="JP2" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="A1" pintype="input"/>
+    </net>
+    <net code="6" name="Net-(JP3-C)">
+      <node ref="JP3" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="A2" pintype="input"/>
+    </net>
+    <net code="7" name="Net-(LED1-Pad2)">
+      <node ref="LED1" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(LED2-Pad2)">
+      <node ref="LED2" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(LED3-Pad2)">
+      <node ref="LED3" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(LED4-Pad2)">
+      <node ref="LED4" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="1" pintype="unspecified"/>
+    </net>
+    <net code="12" name="Net-(R8-Pad2)">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="1" pintype="unspecified"/>
+    </net>
+    <net code="13" name="Net-(R9-Pad2)">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="1" pintype="unspecified"/>
+    </net>
+    <net code="14" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="3" pintype="unspecified"/>
+    </net>
+    <net code="15" name="Net-(R15-Pad2)">
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="1" pintype="unspecified"/>
+    </net>
+    <net code="16" name="Net-(R18-Pad1)">
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="3" pintype="unspecified"/>
+    </net>
+    <net code="17" name="Net-(R21-Pad1)">
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="3" pintype="unspecified"/>
+    </net>
+    <net code="18" name="Net-(R24-Pad1)">
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="3" pintype="unspecified"/>
+    </net>
+    <net code="19" name="Net-(U1-P0)">
+      <node ref="LED4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="P0" pintype="bidirectional"/>
+      <node ref="U4" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="20" name="Net-(U1-P1)">
+      <node ref="LED1" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="P1" pintype="bidirectional"/>
+      <node ref="U3" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="21" name="Net-(U1-P2)">
+      <node ref="LED2" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="P2" pintype="bidirectional"/>
+      <node ref="U2" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="22" name="Net-(U1-P3)">
+      <node ref="LED3" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="P3" pintype="bidirectional"/>
+      <node ref="U5" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="23" name="OUT0">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="4" pintype="unspecified"/>
+      <node ref="U3" pin="4" pinfunction="4" pintype="unspecified"/>
+      <node ref="U4" pin="4" pinfunction="4" pintype="unspecified"/>
+      <node ref="U5" pin="4" pinfunction="4" pintype="unspecified"/>
+    </net>
+    <net code="24" name="OUT1">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="25" name="SCL">
+      <node ref="J1" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="J2" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="J4" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="26" name="SDA">
+      <node ref="J1" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="J2" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="J4" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="VCC">
+      <node ref="J1" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="J2" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="J4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="JP1" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="JP2" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="JP3" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="28" name="unconnected-(U1-*INT-Pad13)">
+      <node ref="U1" pin="13" pinfunction="*INT" pintype="output"/>
+    </net>
+    <net code="29" name="unconnected-(U1-P4-Pad9)">
+      <node ref="U1" pin="9" pinfunction="P4" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="unconnected-(U1-P5-Pad10)">
+      <node ref="U1" pin="10" pinfunction="P5" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="unconnected-(U1-P6-Pad11)">
+      <node ref="U1" pin="11" pinfunction="P6" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="unconnected-(U1-P7-Pad12)">
+      <node ref="U1" pin="12" pinfunction="P7" pintype="bidirectional"/>
+    </net>
+  </nets>
+</export>

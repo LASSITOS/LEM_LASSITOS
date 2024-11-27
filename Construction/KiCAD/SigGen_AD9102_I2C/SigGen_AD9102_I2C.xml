@@ -1,0 +1,2207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>G:\My Drive\KiCAD\SigGen_AD9102_I2C\SigGen_AD9102_I2C.kicad_sch</source>
+    <date>3/4/2024 2:48:33 PM</date>
+    <tool>Eeschema 7.0.8</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>LASSITOS Signal generator board DAC AD9102 I2C</title>
+        <company>A.Capelli</company>
+        <rev/>
+        <date>2024-01-27</date>
+        <source>SigGen_AD9102_I2C.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Power/" tstamps="/23a8e88b-4097-49ed-8672-2c1ebb8ac94a/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>2024-01-27</date>
+        <source>untitled.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Amplifier/" tstamps="/e961bcb8-0fe5-440d-8941-f241f287d803/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>2024-01-27</date>
+        <source>amplifier.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Connections/" tstamps="/7a778292-7530-4412-8b8e-8fb3e9e11626/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>2024-01-27</date>
+        <source>Connections.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="A1">
+      <value>12</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Open" description="Solder Jumper, 3-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SigGen_AD9102_I2C.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 3-pole, open"/>
+      <property name="ki_keywords" value="Solder Jumper SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d3f7b98d-7216-423c-9638-b77724539f7c</tstamps>
+    </comp>
+    <comp ref="A2">
+      <value>12</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Open" description="Solder Jumper, 3-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SigGen_AD9102_I2C.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 3-pole, open"/>
+      <property name="ki_keywords" value="Solder Jumper SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2f25056-1300-4f0a-b9e6-616ca0b21cd0</tstamps>
+    </comp>
+    <comp ref="A3">
+      <value>12</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Open" description="Solder Jumper, 3-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SigGen_AD9102_I2C.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 3-pole, open"/>
+      <property name="ki_keywords" value="Solder Jumper SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f4634bd6-433a-4cbb-a036-d7bf4f60a341</tstamps>
+    </comp>
+    <comp ref="A4">
+      <value>12</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Open" description="Solder Jumper, 3-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SigGen_AD9102_I2C.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 3-pole, open"/>
+      <property name="ki_keywords" value="Solder Jumper SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4df770f7-4f72-424c-96ba-b09b0c9596ea</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SigGen_AD9102_I2C.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>796ea4e0-5e79-4407-9700-70aca3606514</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SigGen_AD9102_I2C.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bcfc8ebe-3259-407f-9ca0-83b908ed29de</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SigGen_AD9102_I2C.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a9aa4da7-60dc-44bc-b5b7-34883b4f5e16</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SigGen_AD9102_I2C.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>583bd426-b49b-4e7c-ad61-436f13b7a903</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SigGen_AD9102_I2C.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4c3e1762-ef1a-4e99-ad95-d1eea8e092ce</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SigGen_AD9102_I2C.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bff8daab-48b4-47d4-9ffa-e5f1ce2dcca8</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SigGen_AD9102_I2C.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5b0a1fd3-b725-4297-a5d9-566dc2e79add</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SigGen_AD9102_I2C.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4205e181-09c1-4838-b4a1-364bb5008947</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SigGen_AD9102_I2C.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ea04dce-7734-48f5-9f97-939f3d3caf3c</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SigGen_AD9102_I2C.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3a6c9305-6afb-4186-b271-0c9598059de6</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>NC</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SigGen_AD9102_I2C.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b562540f-b116-494a-b7cf-2d5d47176497</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SigGen_AD9102_I2C.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0602b97-9bbb-4462-b3bb-3badae39edd9</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SigGen_AD9102_I2C.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6a171cad-f5ea-4523-b09a-4fd151a2a836</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SigGen_AD9102_I2C.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c969561c-676e-4edd-a801-0d6a66b86ea3</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>100pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SigGen_AD9102_I2C.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d40ccd0f-3516-484e-bcae-23c1516a6cb0</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>100pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SigGen_AD9102_I2C.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>01f42d5d-0813-4b9f-9008-84cf746f30b9</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SigGen_AD9102_I2C.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ea3e529-51df-4704-8e33-946aa850b4b3</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SigGen_AD9102_I2C.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>66fbe79b-0496-4875-818e-cf46ec93ea3d</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>100pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SigGen_AD9102_I2C.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a31eca6-c9d2-4cf3-9bd6-ef85c4755d39</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>100pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SigGen_AD9102_I2C.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>620feb7e-2352-4a61-a515-a0a4de1c7a75</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>AD9102BCPZ</value>
+      <footprint>library_components:QFN50P500X500X80-33N-D</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/AD9102.pdf</datasheet>
+      <fields>
+        <field name="Description">Analog Devices AD9102BCPZ, 14 bit Serial DAC, 180Msps, 32-Pin LFCSP</field>
+        <field name="Height">0.8</field>
+        <field name="Manufacturer_Name">Analog Devices</field>
+        <field name="Manufacturer_Part_Number">AD9102BCPZ</field>
+        <field name="Mouser Part Number">584-AD9102BCPZ</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Analog-Devices/AD9102BCPZ?qs=%2FtpEQrCGXCx4RM%2FcE0d16g%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="AD9102BCPZ" description="Analog Devices AD9102BCPZ, 14 bit Serial DAC, 180Msps, 32-Pin LFCSP"/>
+      <property name="Description" value="Analog Devices AD9102BCPZ, 14 bit Serial DAC, 180Msps, 32-Pin LFCSP"/>
+      <property name="Height" value="0.8"/>
+      <property name="Mouser Part Number" value="584-AD9102BCPZ"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Analog-Devices/AD9102BCPZ?qs=%2FtpEQrCGXCx4RM%2FcE0d16g%3D%3D"/>
+      <property name="Manufacturer_Name" value="Analog Devices"/>
+      <property name="Manufacturer_Part_Number" value="AD9102BCPZ"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SigGen_AD9102_I2C.kicad_sch"/>
+      <property name="ki_description" value="Analog Devices AD9102BCPZ, 14 bit Serial DAC, 180Msps, 32-Pin LFCSP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9dab31f8-228f-4751-bd1b-e11ccc686f2a</tstamps>
+    </comp>
+    <comp ref="IC2">
+      <value>SC18IS606PWJ</value>
+      <footprint>SamacSys_Parts:SOP65P640X110-16N</footprint>
+      <datasheet>https://www.nxp.com/docs/en/data-sheet/SC18IS606.pdf</datasheet>
+      <fields>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">NXP</field>
+        <field name="Manufacturer_Part_Number">SC18IS606PWJ</field>
+        <field name="Mouser Part Number">771-SC18IS606PWJ</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/SC18IS606PWJ?qs=pBJMDPsKWf02qtdqbj2bbA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts_new" part="SC18IS606PWJ" description="Interface - Specialized I2C-bus to SPI bridge"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="771-SC18IS606PWJ"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/SC18IS606PWJ?qs=pBJMDPsKWf02qtdqbj2bbA%3D%3D"/>
+      <property name="Manufacturer_Name" value="NXP"/>
+      <property name="Manufacturer_Part_Number" value="SC18IS606PWJ"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SigGen_AD9102_I2C.kicad_sch"/>
+      <property name="ki_description" value="Interface - Specialized I2C-bus to SPI bridge"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5926bc7a-fdc1-427a-b30e-8c237b06e31f</tstamps>
+    </comp>
+    <comp ref="IC3">
+      <value>74LVC1G04SE-7</value>
+      <footprint>SamacSys_Parts:SOT65P210X110-5N</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/74LVC1G04.pdf</datasheet>
+      <fields>
+        <field name="Description">Inverter 1Element CMOS 5Pin SOT353</field>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Diodes Incorporated</field>
+        <field name="Manufacturer_Part_Number">74LVC1G04SE-7</field>
+        <field name="Mouser Part Number">621-74LVC1G04SE-7</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/74LVC1G04SE-7?qs=8Dv1RiiPiVK9x2930PaO3A%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="74LVC1G04SE-7" description="Inverter 1Element CMOS 5Pin SOT353"/>
+      <property name="Description" value="Inverter 1Element CMOS 5Pin SOT353"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="621-74LVC1G04SE-7"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/74LVC1G04SE-7?qs=8Dv1RiiPiVK9x2930PaO3A%3D%3D"/>
+      <property name="Manufacturer_Name" value="Diodes Incorporated"/>
+      <property name="Manufacturer_Part_Number" value="74LVC1G04SE-7"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SigGen_AD9102_I2C.kicad_sch"/>
+      <property name="ki_description" value="Inverter 1Element CMOS 5Pin SOT353"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b36a873-7809-4d4a-9d24-65d46e518b1e</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SigGen_AD9102_I2C.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e500c6e5-bba6-4bdc-8034-6071d1383cf9</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SigGen_AD9102_I2C.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b5e3ec6e-4ffa-43f9-9e42-4c5b30154849</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>DNP</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SigGen_AD9102_I2C.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12acc1b0-6b37-4d48-9300-f0ec21766a29</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>6.8k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SigGen_AD9102_I2C.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>89238489-8308-4910-a7ab-9165599a4d1e</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SigGen_AD9102_I2C.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e2abf22-052a-4245-bb25-0a92fba403eb</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>6.8k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SigGen_AD9102_I2C.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>41fba1d0-7122-4656-8773-5b36830b9986</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>39k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SigGen_AD9102_I2C.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d59606b-e0f3-428c-b6e3-7626a32eda84</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>6.8k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SigGen_AD9102_I2C.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3f769b49-b1e2-4c67-a4a0-549f5f1cd076</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>DNP</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SigGen_AD9102_I2C.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8d81ad04-db74-45f1-a282-1d0eae13c8f7</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>6.8k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SigGen_AD9102_I2C.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a40c84b0-d660-4d32-a3a0-c8da2fbba489</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>DNP</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SigGen_AD9102_I2C.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9fbfe8a4-e433-4c37-8b08-01d901b2b6df</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>6.8k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SigGen_AD9102_I2C.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2d6fefb-db53-4133-a014-160b2d2db092</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>6.8k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SigGen_AD9102_I2C.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>912f356e-d3c6-422c-9549-3049c784b929</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>6.8k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SigGen_AD9102_I2C.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2106f76-896d-4499-81c8-439d0fd68a51</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>6.8k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SigGen_AD9102_I2C.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0fd92750-5183-44c9-8f24-9ae284621566</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/23a8e88b-4097-49ed-8672-2c1ebb8ac94a/"/>
+      <tstamps>48b5053d-e86d-4e94-a1ff-d77398e0aab2</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/23a8e88b-4097-49ed-8672-2c1ebb8ac94a/"/>
+      <tstamps>9e747bb5-bd31-4c20-b527-e4e852fea134</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/23a8e88b-4097-49ed-8672-2c1ebb8ac94a/"/>
+      <tstamps>1e16e4eb-5073-4d5c-8dc5-660c8d21489a</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/23a8e88b-4097-49ed-8672-2c1ebb8ac94a/"/>
+      <tstamps>a68e1665-2d6d-49b5-94a1-f0474def34ee</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>2.2uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/23a8e88b-4097-49ed-8672-2c1ebb8ac94a/"/>
+      <tstamps>91ed69db-c406-415b-b8d7-fa84f2dd0ced</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/23a8e88b-4097-49ed-8672-2c1ebb8ac94a/"/>
+      <tstamps>416b5a2d-a4cc-4024-8338-8f213c23e3ae</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/23a8e88b-4097-49ed-8672-2c1ebb8ac94a/"/>
+      <tstamps>5be34793-3838-47b7-b4d1-c37ba5f81320</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/23a8e88b-4097-49ed-8672-2c1ebb8ac94a/"/>
+      <tstamps>cdc8e067-e3af-45c6-9cb2-d85c6b401ad4</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/23a8e88b-4097-49ed-8672-2c1ebb8ac94a/"/>
+      <tstamps>2ea1ff17-3354-452c-ad4b-e12439f767c9</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/23a8e88b-4097-49ed-8672-2c1ebb8ac94a/"/>
+      <tstamps>3b1dd836-9d3c-4861-b5f2-6efacecec844</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/Power/" tstamps="/23a8e88b-4097-49ed-8672-2c1ebb8ac94a/"/>
+      <tstamps>6094d722-fdc5-4ba1-93c2-4e026e376d6d</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/Power/" tstamps="/23a8e88b-4097-49ed-8672-2c1ebb8ac94a/"/>
+      <tstamps>4bf172e1-71d6-4e67-9047-7bd72ac82f9f</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/Power/" tstamps="/23a8e88b-4097-49ed-8672-2c1ebb8ac94a/"/>
+      <tstamps>e11b4f3c-d6db-4970-ab2d-00334c236101</tstamps>
+    </comp>
+    <comp ref="IC4">
+      <value>MCP1502T-50E_CHY</value>
+      <footprint>library_components:SOT95P280X145-6N</footprint>
+      <datasheet>https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/MCP1502-Data-Sheet-20006593B.pdf</datasheet>
+      <fields>
+        <field name="Description">Voltage References</field>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">MCP1502T-50E/CHY</field>
+        <field name="Mouser Part Number">579-MCP1502T-50E/CHY</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP1502T-50E-CHY?qs=Li%252BoUPsLEnukQ4XpgK0TvA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="MCP1502T-50E_CHY" description="Voltage References"/>
+      <property name="Description" value="Voltage References"/>
+      <property name="Height" value="1.45"/>
+      <property name="Manufacturer_Name" value="Microchip"/>
+      <property name="Manufacturer_Part_Number" value="MCP1502T-50E/CHY"/>
+      <property name="Mouser Part Number" value="579-MCP1502T-50E/CHY"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP1502T-50E-CHY?qs=Li%252BoUPsLEnukQ4XpgK0TvA%3D%3D"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="Voltage References"/>
+      <sheetpath names="/Power/" tstamps="/23a8e88b-4097-49ed-8672-2c1ebb8ac94a/"/>
+      <tstamps>75ccc9e1-404c-4ec0-989f-71e12a73eef1</tstamps>
+    </comp>
+    <comp ref="IC5">
+      <value>MCP1700T-5002E_TT</value>
+      <footprint>library_components:SOT95P237X112-3N</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-4/sf-00090030.pdf</datasheet>
+      <fields>
+        <field name="Description">LDO Regulator 250mA 5.0V 1.6uA SOT23</field>
+        <field name="Height">1.12</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">MCP1700T-5002E/TT</field>
+        <field name="Mouser Part Number">579-MCP1700T5002E/TT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Atmel/MCP1700T-5002E-TT?qs=fM4xO01eazNr4AnStMRB%2Fg%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="MCP1700T-5002E_TT" description="LDO Regulator 250mA 5.0V 1.6uA SOT23"/>
+      <property name="Description" value="LDO Regulator 250mA 5.0V 1.6uA SOT23"/>
+      <property name="Height" value="1.12"/>
+      <property name="Mouser Part Number" value="579-MCP1700T5002E/TT"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Atmel/MCP1700T-5002E-TT?qs=fM4xO01eazNr4AnStMRB%2Fg%3D%3D"/>
+      <property name="Manufacturer_Name" value="Microchip"/>
+      <property name="Manufacturer_Part_Number" value="MCP1700T-5002E/TT"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="LDO Regulator 250mA 5.0V 1.6uA SOT23"/>
+      <sheetpath names="/Power/" tstamps="/23a8e88b-4097-49ed-8672-2c1ebb8ac94a/"/>
+      <tstamps>5cf6d74b-d012-482c-b920-ae3ab173d4e3</tstamps>
+    </comp>
+    <comp ref="IC6">
+      <value>L78L06ACUTR</value>
+      <footprint>SamacSys_Parts:L78L06ACUTR</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/l78l.pdf</datasheet>
+      <fields>
+        <field name="Description">Linear Voltage Regulators 6.0V 0.1A Positive</field>
+        <field name="Height">1.6</field>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">L78L06ACUTR</field>
+        <field name="Mouser Part Number">511-L78L06ACU-TR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L78L06ACUTR?qs=88ob4s58k7kBhUIFpm%2FLqw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="L78L06ACUTR" description="Linear Voltage Regulators 6.0V 0.1A Positive"/>
+      <property name="Description" value="Linear Voltage Regulators 6.0V 0.1A Positive"/>
+      <property name="Height" value="1.6"/>
+      <property name="Mouser Part Number" value="511-L78L06ACU-TR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L78L06ACUTR?qs=88ob4s58k7kBhUIFpm%2FLqw%3D%3D"/>
+      <property name="Manufacturer_Name" value="STMicroelectronics"/>
+      <property name="Manufacturer_Part_Number" value="L78L06ACUTR"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="Linear Voltage Regulators 6.0V 0.1A Positive"/>
+      <sheetpath names="/Power/" tstamps="/23a8e88b-4097-49ed-8672-2c1ebb8ac94a/"/>
+      <tstamps>c3270238-d06b-477c-bd01-dfbe0c4b0331</tstamps>
+    </comp>
+    <comp ref="PS1">
+      <value>AP2120N-3.3TRG1</value>
+      <footprint>library_components:SOT96P240X120-3N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/AP2120N-3.3TRG1.pdf</datasheet>
+      <fields>
+        <field name="Description">DiodesZetex AP2120N-3.3TRG1, Low Noise LDO Voltage Regulator, 3.3 V +/-2%, 2  6 Vin, 3-Pin SOT-23</field>
+        <field name="Height">1.2</field>
+        <field name="Manufacturer_Name">Diodes Inc.</field>
+        <field name="Manufacturer_Part_Number">AP2120N-3.3TRG1</field>
+        <field name="Mouser Part Number">621-AP2120N-3.3TRG1</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP2120N-3.3TRG1?qs=x6A8l6qLYDA1usfeaZ7Tnw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="AP2120N-3.3TRG1" description="DiodesZetex AP2120N-3.3TRG1, Low Noise LDO Voltage Regulator, 3.3 V +/-2%, 2  6 Vin, 3-Pin SOT-23"/>
+      <property name="Description" value="DiodesZetex AP2120N-3.3TRG1, Low Noise LDO Voltage Regulator, 3.3 V +/-2%, 2  6 Vin, 3-Pin SOT-23"/>
+      <property name="Height" value="1.2"/>
+      <property name="Mouser Part Number" value="621-AP2120N-3.3TRG1"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP2120N-3.3TRG1?qs=x6A8l6qLYDA1usfeaZ7Tnw%3D%3D"/>
+      <property name="Manufacturer_Name" value="Diodes Inc."/>
+      <property name="Manufacturer_Part_Number" value="AP2120N-3.3TRG1"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="DiodesZetex AP2120N-3.3TRG1, Low Noise LDO Voltage Regulator, 3.3 V +/-2%, 2  6 Vin, 3-Pin SOT-23"/>
+      <sheetpath names="/Power/" tstamps="/23a8e88b-4097-49ed-8672-2c1ebb8ac94a/"/>
+      <tstamps>d439a737-eeab-4b4c-97a4-da866a4c2401</tstamps>
+    </comp>
+    <comp ref="PS2">
+      <value>AP2120N-3.3TRG1</value>
+      <footprint>library_components:SOT96P240X120-3N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/AP2120N-3.3TRG1.pdf</datasheet>
+      <fields>
+        <field name="Description">DiodesZetex AP2120N-3.3TRG1, Low Noise LDO Voltage Regulator, 3.3 V +/-2%, 2  6 Vin, 3-Pin SOT-23</field>
+        <field name="Height">1.2</field>
+        <field name="Manufacturer_Name">Diodes Inc.</field>
+        <field name="Manufacturer_Part_Number">AP2120N-3.3TRG1</field>
+        <field name="Mouser Part Number">621-AP2120N-3.3TRG1</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP2120N-3.3TRG1?qs=x6A8l6qLYDA1usfeaZ7Tnw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="AP2120N-3.3TRG1" description="DiodesZetex AP2120N-3.3TRG1, Low Noise LDO Voltage Regulator, 3.3 V +/-2%, 2  6 Vin, 3-Pin SOT-23"/>
+      <property name="Description" value="DiodesZetex AP2120N-3.3TRG1, Low Noise LDO Voltage Regulator, 3.3 V +/-2%, 2  6 Vin, 3-Pin SOT-23"/>
+      <property name="Height" value="1.2"/>
+      <property name="Mouser Part Number" value="621-AP2120N-3.3TRG1"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP2120N-3.3TRG1?qs=x6A8l6qLYDA1usfeaZ7Tnw%3D%3D"/>
+      <property name="Manufacturer_Name" value="Diodes Inc."/>
+      <property name="Manufacturer_Part_Number" value="AP2120N-3.3TRG1"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="DiodesZetex AP2120N-3.3TRG1, Low Noise LDO Voltage Regulator, 3.3 V +/-2%, 2  6 Vin, 3-Pin SOT-23"/>
+      <sheetpath names="/Power/" tstamps="/23a8e88b-4097-49ed-8672-2c1ebb8ac94a/"/>
+      <tstamps>5749752a-ccda-4636-941d-05b820c42e90</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>50</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power/" tstamps="/23a8e88b-4097-49ed-8672-2c1ebb8ac94a/"/>
+      <tstamps>4c98471a-cea0-4c17-add9-6a913774d498</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>50</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power/" tstamps="/23a8e88b-4097-49ed-8672-2c1ebb8ac94a/"/>
+      <tstamps>e0ad41cb-cd94-467d-ba0e-d72ad4e6763d</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power/" tstamps="/23a8e88b-4097-49ed-8672-2c1ebb8ac94a/"/>
+      <tstamps>e7874f10-ce1c-4a1f-81ee-52a4425a7d35</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>50</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power/" tstamps="/23a8e88b-4097-49ed-8672-2c1ebb8ac94a/"/>
+      <tstamps>84890028-f63f-48c9-8611-105543afe95b</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Power/" tstamps="/23a8e88b-4097-49ed-8672-2c1ebb8ac94a/"/>
+      <tstamps>9e335284-42f1-4ba3-ab50-4e4016a61dc0</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Power/" tstamps="/23a8e88b-4097-49ed-8672-2c1ebb8ac94a/"/>
+      <tstamps>9e8c241a-ea63-4be5-9b0a-5cc341964437</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Power/" tstamps="/23a8e88b-4097-49ed-8672-2c1ebb8ac94a/"/>
+      <tstamps>1382030d-1038-4feb-9d11-5849975f4a3e</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="untitled.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Power/" tstamps="/23a8e88b-4097-49ed-8672-2c1ebb8ac94a/"/>
+      <tstamps>efc388c5-0c84-46ad-b22a-8b9c82dc3507</tstamps>
+    </comp>
+    <comp ref="C31">
+      <value>0.3nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Amplifier"/>
+      <property name="Sheetfile" value="amplifier.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Amplifier/" tstamps="/e961bcb8-0fe5-440d-8941-f241f287d803/"/>
+      <tstamps>ee6e06c1-e14d-4dd9-9658-3978dd9597e9</tstamps>
+    </comp>
+    <comp ref="C32">
+      <value>0.3nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Amplifier"/>
+      <property name="Sheetfile" value="amplifier.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Amplifier/" tstamps="/e961bcb8-0fe5-440d-8941-f241f287d803/"/>
+      <tstamps>ec80fb54-d366-4786-a7f1-3134780f46cf</tstamps>
+    </comp>
+    <comp ref="C33">
+      <value>47nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Amplifier"/>
+      <property name="Sheetfile" value="amplifier.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Amplifier/" tstamps="/e961bcb8-0fe5-440d-8941-f241f287d803/"/>
+      <tstamps>42fe9f07-1988-4608-bad1-05f2a63fe6ba</tstamps>
+    </comp>
+    <comp ref="C34">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Amplifier"/>
+      <property name="Sheetfile" value="amplifier.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Amplifier/" tstamps="/e961bcb8-0fe5-440d-8941-f241f287d803/"/>
+      <tstamps>8d1fcb7c-4e38-4e38-bd30-5b2b315dc317</tstamps>
+    </comp>
+    <comp ref="C35">
+      <value>200nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Amplifier"/>
+      <property name="Sheetfile" value="amplifier.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Amplifier/" tstamps="/e961bcb8-0fe5-440d-8941-f241f287d803/"/>
+      <tstamps>9febfde7-f685-47d7-b442-c4fa933a4e9b</tstamps>
+    </comp>
+    <comp ref="C36">
+      <value>200nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Amplifier"/>
+      <property name="Sheetfile" value="amplifier.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Amplifier/" tstamps="/e961bcb8-0fe5-440d-8941-f241f287d803/"/>
+      <tstamps>8fbdde71-08e7-461b-a88b-85181e65dab4</tstamps>
+    </comp>
+    <comp ref="IC7">
+      <value>LTC6362</value>
+      <footprint>library_components:SOP65P490X110-8N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/LTC6362HMS8#TRPBF.pdf</datasheet>
+      <fields>
+        <field name="Description">SP Amp DIFF AMP Single R-R I/O +/-2.625V/5.25V Automotive 8-Pin MSOP T/R</field>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Analog Devices</field>
+        <field name="Manufacturer_Part_Number">LTC6362HMS8#TRPBF</field>
+        <field name="Mouser Part Number">584-LTC6362HMS8TRPBF</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=584-LTC6362HMS8TRPBF</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="LTC6362HMS8#TRPBF" description="SP Amp DIFF AMP Single R-R I/O +/-2.625V/5.25V Automotive 8-Pin MSOP T/R"/>
+      <property name="Description" value="SP Amp DIFF AMP Single R-R I/O +/-2.625V/5.25V Automotive 8-Pin MSOP T/R"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="584-LTC6362HMS8TRPBF"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.com/Search/Refine.aspx?Keyword=584-LTC6362HMS8TRPBF"/>
+      <property name="Manufacturer_Name" value="Analog Devices"/>
+      <property name="Manufacturer_Part_Number" value="LTC6362HMS8#TRPBF"/>
+      <property name="Sheetname" value="Amplifier"/>
+      <property name="Sheetfile" value="amplifier.kicad_sch"/>
+      <property name="ki_description" value="SP Amp DIFF AMP Single R-R I/O +/-2.625V/5.25V Automotive 8-Pin MSOP T/R"/>
+      <sheetpath names="/Amplifier/" tstamps="/e961bcb8-0fe5-440d-8941-f241f287d803/"/>
+      <tstamps>6924c74d-4923-459f-8059-b9541bd85489</tstamps>
+    </comp>
+    <comp ref="JP3">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value="Amplifier"/>
+      <property name="Sheetfile" value="amplifier.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/Amplifier/" tstamps="/e961bcb8-0fe5-440d-8941-f241f287d803/"/>
+      <tstamps>cac91527-6221-4d9d-ac1b-cb4401cbd590</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Amplifier"/>
+      <property name="Sheetfile" value="amplifier.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Amplifier/" tstamps="/e961bcb8-0fe5-440d-8941-f241f287d803/"/>
+      <tstamps>918694f9-68c2-4293-91b2-10a74d886c3b</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Amplifier"/>
+      <property name="Sheetfile" value="amplifier.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Amplifier/" tstamps="/e961bcb8-0fe5-440d-8941-f241f287d803/"/>
+      <tstamps>bda63c00-64d6-4f20-920a-1e694c9609e8</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Amplifier"/>
+      <property name="Sheetfile" value="amplifier.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Amplifier/" tstamps="/e961bcb8-0fe5-440d-8941-f241f287d803/"/>
+      <tstamps>06c3b731-7235-47b1-be3f-6dfb13e1ec8c</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Amplifier"/>
+      <property name="Sheetfile" value="amplifier.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Amplifier/" tstamps="/e961bcb8-0fe5-440d-8941-f241f287d803/"/>
+      <tstamps>f23a3f4c-9958-44e0-9fac-9279545cb20a</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>20k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Amplifier"/>
+      <property name="Sheetfile" value="amplifier.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Amplifier/" tstamps="/e961bcb8-0fe5-440d-8941-f241f287d803/"/>
+      <tstamps>04985456-87b9-4ee5-9aa3-97ba56b468be</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>20k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Amplifier"/>
+      <property name="Sheetfile" value="amplifier.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Amplifier/" tstamps="/e961bcb8-0fe5-440d-8941-f241f287d803/"/>
+      <tstamps>c77700e6-ceeb-4bf4-b20d-1de669755ae9</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Amplifier"/>
+      <property name="Sheetfile" value="amplifier.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Amplifier/" tstamps="/e961bcb8-0fe5-440d-8941-f241f287d803/"/>
+      <tstamps>bfa77558-abfb-4ec3-86bf-85b7ffd46f74</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Amplifier"/>
+      <property name="Sheetfile" value="amplifier.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Amplifier/" tstamps="/e961bcb8-0fe5-440d-8941-f241f287d803/"/>
+      <tstamps>b62054cf-ff92-42f8-b92c-4b1919404f62</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>50</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Amplifier"/>
+      <property name="Sheetfile" value="amplifier.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Amplifier/" tstamps="/e961bcb8-0fe5-440d-8941-f241f287d803/"/>
+      <tstamps>59684dff-1dba-4566-8bce-f6921e7bd0fb</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>50</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Amplifier"/>
+      <property name="Sheetfile" value="amplifier.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Amplifier/" tstamps="/e961bcb8-0fe5-440d-8941-f241f287d803/"/>
+      <tstamps>285fe6a2-fd9b-4888-a85c-5990e408b040</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Amplifier"/>
+      <property name="Sheetfile" value="amplifier.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Amplifier/" tstamps="/e961bcb8-0fe5-440d-8941-f241f287d803/"/>
+      <tstamps>68858cb1-2153-4e4d-9307-934dfe2d5ee5</tstamps>
+    </comp>
+    <comp ref="TP6">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Amplifier"/>
+      <property name="Sheetfile" value="amplifier.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Amplifier/" tstamps="/e961bcb8-0fe5-440d-8941-f241f287d803/"/>
+      <tstamps>eb529b62-dfdb-4aef-8e0d-efe53148bab0</tstamps>
+    </comp>
+    <comp ref="TP7">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Amplifier"/>
+      <property name="Sheetfile" value="amplifier.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Amplifier/" tstamps="/e961bcb8-0fe5-440d-8941-f241f287d803/"/>
+      <tstamps>0f9ec42b-9bc5-49ea-8254-78fe4c684703</tstamps>
+    </comp>
+    <comp ref="TP8">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Amplifier"/>
+      <property name="Sheetfile" value="amplifier.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Amplifier/" tstamps="/e961bcb8-0fe5-440d-8941-f241f287d803/"/>
+      <tstamps>e713f86a-27cf-4ed6-b2ac-79ff67d07731</tstamps>
+    </comp>
+    <comp ref="TP9">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Amplifier"/>
+      <property name="Sheetfile" value="amplifier.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Amplifier/" tstamps="/e961bcb8-0fe5-440d-8941-f241f287d803/"/>
+      <tstamps>eebc4ec0-9138-4015-b44a-30d3bf330ba5</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>SM04B-SRSS-TB_LFSN_</value>
+      <footprint>SamacSys_Parts:SM04B-SRSS-TB_LFSN_</footprint>
+      <fields>
+        <field name="Description">4 way side entry SMT header,1mm pitch JST SH Series, 1mm Pitch 4 Way 1 Row Right Angle PCB Header, Solder Termination, 1A</field>
+        <field name="Manufacturer_Name">JST (JAPAN SOLDERLESS TERMINALS)</field>
+        <field name="Manufacturer_Part_Number">SM04B-SRSS-TB(LFSN)</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="SM04B-SRSS-TB_LFSN_" description="4 way side entry SMT header,1mm pitch JST SH Series, 1mm Pitch 4 Way 1 Row Right Angle PCB Header, Solder Termination, 1A"/>
+      <property name="Description" value="4 way side entry SMT header,1mm pitch JST SH Series, 1mm Pitch 4 Way 1 Row Right Angle PCB Header, Solder Termination, 1A"/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer_Name" value="JST (JAPAN SOLDERLESS TERMINALS)"/>
+      <property name="Manufacturer_Part_Number" value="SM04B-SRSS-TB(LFSN)"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Sheetname" value="Connections"/>
+      <property name="Sheetfile" value="Connections.kicad_sch"/>
+      <property name="ki_description" value="4 way side entry SMT header,1mm pitch JST SH Series, 1mm Pitch 4 Way 1 Row Right Angle PCB Header, Solder Termination, 1A"/>
+      <sheetpath names="/Connections/" tstamps="/7a778292-7530-4412-8b8e-8fb3e9e11626/"/>
+      <tstamps>919982eb-c104-41f1-8f8b-706b02b49df2</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>PCB.SMAFRA.HT</value>
+      <footprint>SamacSys_Parts:PCBSMAFRAHT</footprint>
+      <fields>
+        <field name="Description">RF Connectors / Coaxial Connectors SMA RA PCB Mount, Jack, Gold, 50 , Through Hole Pin</field>
+        <field name="Height">9</field>
+        <field name="Manufacturer_Name">Taoglas</field>
+        <field name="Manufacturer_Part_Number">PCB.SMAFRA.HT</field>
+        <field name="Mouser Part Number">960-PCB.SMAFRA.HT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Taoglas/PCB.SMAFRA.HT?qs=RuW%2Fu%252BNMQmubIFYcN8w5Dw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="PCB.SMAFRA.HT" description="RF Connectors / Coaxial Connectors SMA RA PCB Mount, Jack, Gold, 50 , Through Hole Pin"/>
+      <property name="Description" value="RF Connectors / Coaxial Connectors SMA RA PCB Mount, Jack, Gold, 50 , Through Hole Pin"/>
+      <property name="Height" value="9"/>
+      <property name="Mouser Part Number" value="960-PCB.SMAFRA.HT"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Taoglas/PCB.SMAFRA.HT?qs=RuW%2Fu%252BNMQmubIFYcN8w5Dw%3D%3D"/>
+      <property name="Manufacturer_Name" value="Taoglas"/>
+      <property name="Manufacturer_Part_Number" value="PCB.SMAFRA.HT"/>
+      <property name="Sheetname" value="Connections"/>
+      <property name="Sheetfile" value="Connections.kicad_sch"/>
+      <property name="ki_description" value="RF Connectors / Coaxial Connectors SMA RA PCB Mount, Jack, Gold, 50 , Through Hole Pin"/>
+      <sheetpath names="/Connections/" tstamps="/7a778292-7530-4412-8b8e-8fb3e9e11626/"/>
+      <tstamps>ae1267a7-4fa9-49a0-abc0-6fa40db180ee</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x05</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Connections"/>
+      <property name="Sheetfile" value="Connections.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Connections/" tstamps="/7a778292-7530-4412-8b8e-8fb3e9e11626/"/>
+      <tstamps>87c65207-4958-4dee-9a8d-72b50a75c27a</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Connections"/>
+      <property name="Sheetfile" value="Connections.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Connections/" tstamps="/7a778292-7530-4412-8b8e-8fb3e9e11626/"/>
+      <tstamps>6ea13875-70e6-4228-9a27-6b7c3a76160d</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Connections"/>
+      <property name="Sheetfile" value="Connections.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Connections/" tstamps="/7a778292-7530-4412-8b8e-8fb3e9e11626/"/>
+      <tstamps>754b0840-3eef-46ab-9e2e-d178e00198bd</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>3-794618-8</value>
+      <footprint>SamacSys_Parts:37946188</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F794618%7FF3%7Fpdf%7FEnglish%7FENG_CD_794618_F3.pdf%7F3-794618-8</datasheet>
+      <fields>
+        <field name="Description">8 way 2 row r/a header Mate-N-Lok</field>
+        <field name="Height">8.67</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">3-794618-8</field>
+        <field name="Mouser Part Number">571-3-794618-8</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/3-794618-8?qs=%252B5JSS813miNioFiPAtY9Fg%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="3-794618-8" description="8 way 2 row r/a header Mate-N-Lok"/>
+      <property name="Description" value="8 way 2 row r/a header Mate-N-Lok"/>
+      <property name="Height" value="8.67"/>
+      <property name="Mouser Part Number" value="571-3-794618-8"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/3-794618-8?qs=%252B5JSS813miNioFiPAtY9Fg%3D%3D"/>
+      <property name="Manufacturer_Name" value="TE Connectivity"/>
+      <property name="Manufacturer_Part_Number" value="3-794618-8"/>
+      <property name="Sheetname" value="Connections"/>
+      <property name="Sheetfile" value="Connections.kicad_sch"/>
+      <property name="ki_description" value="8 way 2 row r/a header Mate-N-Lok"/>
+      <sheetpath names="/Connections/" tstamps="/7a778292-7530-4412-8b8e-8fb3e9e11626/"/>
+      <tstamps>b4bc796f-c88a-440f-9ee9-6cdf09736cf8</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>SM04B-SRSS-TB_LFSN_</value>
+      <footprint>SamacSys_Parts:SM04B-SRSS-TB_LFSN_</footprint>
+      <fields>
+        <field name="Description">4 way side entry SMT header,1mm pitch JST SH Series, 1mm Pitch 4 Way 1 Row Right Angle PCB Header, Solder Termination, 1A</field>
+        <field name="Manufacturer_Name">JST (JAPAN SOLDERLESS TERMINALS)</field>
+        <field name="Manufacturer_Part_Number">SM04B-SRSS-TB(LFSN)</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="SM04B-SRSS-TB_LFSN_" description="4 way side entry SMT header,1mm pitch JST SH Series, 1mm Pitch 4 Way 1 Row Right Angle PCB Header, Solder Termination, 1A"/>
+      <property name="Description" value="4 way side entry SMT header,1mm pitch JST SH Series, 1mm Pitch 4 Way 1 Row Right Angle PCB Header, Solder Termination, 1A"/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer_Name" value="JST (JAPAN SOLDERLESS TERMINALS)"/>
+      <property name="Manufacturer_Part_Number" value="SM04B-SRSS-TB(LFSN)"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Sheetname" value="Connections"/>
+      <property name="Sheetfile" value="Connections.kicad_sch"/>
+      <property name="ki_description" value="4 way side entry SMT header,1mm pitch JST SH Series, 1mm Pitch 4 Way 1 Row Right Angle PCB Header, Solder Termination, 1A"/>
+      <sheetpath names="/Connections/" tstamps="/7a778292-7530-4412-8b8e-8fb3e9e11626/"/>
+      <tstamps>b7a5debe-6a4c-4d62-8a64-27e51e98cbb6</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>SM04B-SRSS-TB_LFSN_</value>
+      <footprint>SamacSys_Parts:SM04B-SRSS-TB_LFSN_</footprint>
+      <fields>
+        <field name="Description">4 way side entry SMT header,1mm pitch JST SH Series, 1mm Pitch 4 Way 1 Row Right Angle PCB Header, Solder Termination, 1A</field>
+        <field name="Manufacturer_Name">JST (JAPAN SOLDERLESS TERMINALS)</field>
+        <field name="Manufacturer_Part_Number">SM04B-SRSS-TB(LFSN)</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="SM04B-SRSS-TB_LFSN_" description="4 way side entry SMT header,1mm pitch JST SH Series, 1mm Pitch 4 Way 1 Row Right Angle PCB Header, Solder Termination, 1A"/>
+      <property name="Description" value="4 way side entry SMT header,1mm pitch JST SH Series, 1mm Pitch 4 Way 1 Row Right Angle PCB Header, Solder Termination, 1A"/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer_Name" value="JST (JAPAN SOLDERLESS TERMINALS)"/>
+      <property name="Manufacturer_Part_Number" value="SM04B-SRSS-TB(LFSN)"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Sheetname" value="Connections"/>
+      <property name="Sheetfile" value="Connections.kicad_sch"/>
+      <property name="ki_description" value="4 way side entry SMT header,1mm pitch JST SH Series, 1mm Pitch 4 Way 1 Row Right Angle PCB Header, Solder Termination, 1A"/>
+      <sheetpath names="/Connections/" tstamps="/7a778292-7530-4412-8b8e-8fb3e9e11626/"/>
+      <tstamps>4199608e-e84d-4867-b9a4-d77232e3194f</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_01x05</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Connections"/>
+      <property name="Sheetfile" value="Connections.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Connections/" tstamps="/7a778292-7530-4412-8b8e-8fb3e9e11626/"/>
+      <tstamps>66292f4f-719e-44b6-9640-3cdfe32f7bfb</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x05">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Open">
+      <description>Solder Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_3_Open">
+      <description>Solder Jumper, 3-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_3_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="3-794618-8">
+      <description>8 way 2 row r/a header Mate-N-Lok</description>
+      <docs>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F794618%7FF3%7Fpdf%7FEnglish%7FENG_CD_794618_F3.pdf%7F3-794618-8</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">3-794618-8</field>
+        <field name="Footprint">37946188</field>
+        <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F794618%7FF3%7Fpdf%7FEnglish%7FENG_CD_794618_F3.pdf%7F3-794618-8</field>
+        <field name="Description">8 way 2 row r/a header Mate-N-Lok</field>
+        <field name="Height">8.67</field>
+        <field name="Mouser Part Number">571-3-794618-8</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/3-794618-8?qs=%252B5JSS813miNioFiPAtY9Fg%3D%3D</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">3-794618-8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="74LVC1G04SE-7">
+      <description>Inverter 1Element CMOS 5Pin SOT353</description>
+      <docs>https://www.diodes.com/assets/Datasheets/74LVC1G04.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">74LVC1G04SE-7</field>
+        <field name="Footprint">SOT65P210X110-5N</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/74LVC1G04.pdf</field>
+        <field name="Description">Inverter 1Element CMOS 5Pin SOT353</field>
+        <field name="Height">1.1</field>
+        <field name="Mouser Part Number">621-74LVC1G04SE-7</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/74LVC1G04SE-7?qs=8Dv1RiiPiVK9x2930PaO3A%3D%3D</field>
+        <field name="Manufacturer_Name">Diodes Incorporated</field>
+        <field name="Manufacturer_Part_Number">74LVC1G04SE-7</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="no_connect"/>
+        <pin num="2" name="A" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="Y" type="passive"/>
+        <pin num="5" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="AD9102BCPZ">
+      <description>Analog Devices AD9102BCPZ, 14 bit Serial DAC, 180Msps, 32-Pin LFCSP</description>
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/AD9102.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">AD9102BCPZ</field>
+        <field name="Footprint">QFN50P500X500X80-33N-D</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/AD9102.pdf</field>
+        <field name="Description">Analog Devices AD9102BCPZ, 14 bit Serial DAC, 180Msps, 32-Pin LFCSP</field>
+        <field name="Height">0.8</field>
+        <field name="Mouser Part Number">584-AD9102BCPZ</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Analog-Devices/AD9102BCPZ?qs=%2FtpEQrCGXCx4RM%2FcE0d16g%3D%3D</field>
+        <field name="Manufacturer_Name">Analog Devices</field>
+        <field name="Manufacturer_Part_Number">AD9102BCPZ</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SCLK" type="passive"/>
+        <pin num="2" name="SDIO" type="passive"/>
+        <pin num="3" name="DGND" type="passive"/>
+        <pin num="4" name="DLDO2" type="passive"/>
+        <pin num="5" name="DVDD" type="passive"/>
+        <pin num="6" name="DLDO1" type="passive"/>
+        <pin num="7" name="SDO/SDI2/DOUT" type="passive"/>
+        <pin num="8" name="~{CS}" type="passive"/>
+        <pin num="9" name="~{RESET}" type="passive"/>
+        <pin num="10" name="NC_1" type="passive"/>
+        <pin num="11" name="NC_2" type="passive"/>
+        <pin num="12" name="AVDD2" type="passive"/>
+        <pin num="13" name="NC_3" type="passive"/>
+        <pin num="14" name="NC_4" type="passive"/>
+        <pin num="15" name="AGND_1" type="passive"/>
+        <pin num="16" name="NC_5" type="passive"/>
+        <pin num="17" name="NC_6" type="passive"/>
+        <pin num="18" name="REFIO" type="passive"/>
+        <pin num="19" name="CLKGND" type="passive"/>
+        <pin num="20" name="CLKN" type="passive"/>
+        <pin num="21" name="CLKP" type="passive"/>
+        <pin num="22" name="CLDO" type="passive"/>
+        <pin num="23" name="CLKVDD" type="passive"/>
+        <pin num="24" name="CAL_SENSE" type="passive"/>
+        <pin num="25" name="FSADJ" type="passive"/>
+        <pin num="26" name="AGND_2" type="passive"/>
+        <pin num="27" name="IOUT_P" type="passive"/>
+        <pin num="28" name="IOUTN" type="passive"/>
+        <pin num="29" name="AVDD1" type="passive"/>
+        <pin num="30" name="NC_7" type="passive"/>
+        <pin num="31" name="NC_8" type="passive"/>
+        <pin num="32" name="~{TRIGGER}" type="passive"/>
+        <pin num="33" name="EP" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="AP2120N-3.3TRG1">
+      <description>DiodesZetex AP2120N-3.3TRG1, Low Noise LDO Voltage Regulator, 3.3 V +/-2%, 2  6 Vin, 3-Pin SOT-23</description>
+      <docs>https://componentsearchengine.com/Datasheets/1/AP2120N-3.3TRG1.pdf</docs>
+      <fields>
+        <field name="Reference">PS</field>
+        <field name="Value">AP2120N-3.3TRG1</field>
+        <field name="Footprint">SOT96P240X120-3N</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/AP2120N-3.3TRG1.pdf</field>
+        <field name="Description">DiodesZetex AP2120N-3.3TRG1, Low Noise LDO Voltage Regulator, 3.3 V +/-2%, 2  6 Vin, 3-Pin SOT-23</field>
+        <field name="Height">1.2</field>
+        <field name="Mouser Part Number">621-AP2120N-3.3TRG1</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP2120N-3.3TRG1?qs=x6A8l6qLYDA1usfeaZ7Tnw%3D%3D</field>
+        <field name="Manufacturer_Name">Diodes Inc.</field>
+        <field name="Manufacturer_Part_Number">AP2120N-3.3TRG1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="VOUT" type="passive"/>
+        <pin num="3" name="VIN" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="L78L06ACUTR">
+      <description>Linear Voltage Regulators 6.0V 0.1A Positive</description>
+      <docs>https://www.st.com/resource/en/datasheet/l78l.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">L78L06ACUTR</field>
+        <field name="Footprint">L78L06ACUTR</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/l78l.pdf</field>
+        <field name="Description">Linear Voltage Regulators 6.0V 0.1A Positive</field>
+        <field name="Height">1.6</field>
+        <field name="Mouser Part Number">511-L78L06ACU-TR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L78L06ACUTR?qs=88ob4s58k7kBhUIFpm%2FLqw%3D%3D</field>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">L78L06ACUTR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUT" type="passive"/>
+        <pin num="2" name="GND_1" type="passive"/>
+        <pin num="3" name="VIN" type="passive"/>
+        <pin num="4" name="GND_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="LTC6362HMS8#TRPBF">
+      <description>SP Amp DIFF AMP Single R-R I/O +/-2.625V/5.25V Automotive 8-Pin MSOP T/R</description>
+      <docs>https://componentsearchengine.com/Datasheets/1/LTC6362HMS8#TRPBF.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">LTC6362HMS8#TRPBF</field>
+        <field name="Footprint">SOP65P490X110-8N</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/LTC6362HMS8#TRPBF.pdf</field>
+        <field name="Description">SP Amp DIFF AMP Single R-R I/O +/-2.625V/5.25V Automotive 8-Pin MSOP T/R</field>
+        <field name="Height">1.1</field>
+        <field name="Mouser Part Number">584-LTC6362HMS8TRPBF</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=584-LTC6362HMS8TRPBF</field>
+        <field name="Manufacturer_Name">Analog Devices</field>
+        <field name="Manufacturer_Part_Number">LTC6362HMS8#TRPBF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-IN" type="passive"/>
+        <pin num="2" name="VOCM" type="passive"/>
+        <pin num="3" name="V+" type="passive"/>
+        <pin num="4" name="+OUT" type="passive"/>
+        <pin num="5" name="-OUT" type="passive"/>
+        <pin num="6" name="V-" type="passive"/>
+        <pin num="7" name="~{SHDN}" type="passive"/>
+        <pin num="8" name="+IN" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="MCP1502T-50E_CHY">
+      <description>Voltage References</description>
+      <docs>https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/MCP1502-Data-Sheet-20006593B.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">MCP1502T-50E_CHY</field>
+        <field name="Footprint">SOT95P280X145-6N</field>
+        <field name="Datasheet">https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/MCP1502-Data-Sheet-20006593B.pdf</field>
+        <field name="Description">Voltage References</field>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">MCP1502T-50E/CHY</field>
+        <field name="Mouser Part Number">579-MCP1502T-50E/CHY</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP1502T-50E-CHY?qs=Li%252BoUPsLEnukQ4XpgK0TvA%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="passive"/>
+        <pin num="2" name="GND_1" type="passive"/>
+        <pin num="3" name="GND_2" type="passive"/>
+        <pin num="4" name="~{SHDN}" type="passive"/>
+        <pin num="5" name="GND_3" type="passive"/>
+        <pin num="6" name="VDD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="MCP1700T-5002E_TT">
+      <description>LDO Regulator 250mA 5.0V 1.6uA SOT23</description>
+      <docs>https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-4/sf-00090030.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">MCP1700T-5002E_TT</field>
+        <field name="Footprint">SOT95P237X112-3N</field>
+        <field name="Datasheet">https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-4/sf-00090030.pdf</field>
+        <field name="Description">LDO Regulator 250mA 5.0V 1.6uA SOT23</field>
+        <field name="Height">1.12</field>
+        <field name="Mouser Part Number">579-MCP1700T5002E/TT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Atmel/MCP1700T-5002E-TT?qs=fM4xO01eazNr4AnStMRB%2Fg%3D%3D</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">MCP1700T-5002E/TT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="VOUT" type="passive"/>
+        <pin num="3" name="VIN" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="PCB.SMAFRA.HT">
+      <description>RF Connectors / Coaxial Connectors SMA RA PCB Mount, Jack, Gold, 50 , Through Hole Pin</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">PCB.SMAFRA.HT</field>
+        <field name="Footprint">PCBSMAFRAHT</field>
+        <field name="Description">RF Connectors / Coaxial Connectors SMA RA PCB Mount, Jack, Gold, 50 , Through Hole Pin</field>
+        <field name="Height">9</field>
+        <field name="Mouser Part Number">960-PCB.SMAFRA.HT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Taoglas/PCB.SMAFRA.HT?qs=RuW%2Fu%252BNMQmubIFYcN8w5Dw%3D%3D</field>
+        <field name="Manufacturer_Name">Taoglas</field>
+        <field name="Manufacturer_Part_Number">PCB.SMAFRA.HT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="SM04B-SRSS-TB_LFSN_">
+      <description>4 way side entry SMT header,1mm pitch JST SH Series, 1mm Pitch 4 Way 1 Row Right Angle PCB Header, Solder Termination, 1A</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SM04B-SRSS-TB_LFSN_</field>
+        <field name="Footprint">SM04B-SRSS-TB(LFSN)</field>
+        <field name="Description">4 way side entry SMT header,1mm pitch JST SH Series, 1mm Pitch 4 Way 1 Row Right Angle PCB Header, Solder Termination, 1A</field>
+        <field name="Manufacturer_Name">JST (JAPAN SOLDERLESS TERMINALS)</field>
+        <field name="Manufacturer_Part_Number">SM04B-SRSS-TB(LFSN)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts_new" part="SC18IS606PWJ">
+      <description>Interface - Specialized I2C-bus to SPI bridge</description>
+      <docs>https://www.nxp.com/docs/en/data-sheet/SC18IS606.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">SC18IS606PWJ</field>
+        <field name="Footprint">SOP65P640X110-16N</field>
+        <field name="Datasheet">https://www.nxp.com/docs/en/data-sheet/SC18IS606.pdf</field>
+        <field name="Height">1.1</field>
+        <field name="Mouser Part Number">771-SC18IS606PWJ</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/SC18IS606PWJ?qs=pBJMDPsKWf02qtdqbj2bbA%3D%3D</field>
+        <field name="Manufacturer_Name">NXP</field>
+        <field name="Manufacturer_Part_Number">SC18IS606PWJ</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDA" type="passive"/>
+        <pin num="2" name="SCL" type="passive"/>
+        <pin num="3" name="~{INT}" type="passive"/>
+        <pin num="4" name="~{RESET}" type="passive"/>
+        <pin num="5" name="A2" type="passive"/>
+        <pin num="6" name="A1" type="passive"/>
+        <pin num="7" name="A0" type="passive"/>
+        <pin num="8" name="~{SS2}/GPIO2" type="passive"/>
+        <pin num="9" name="~{SS0}/GPIO0" type="passive"/>
+        <pin num="10" name="MOSI" type="passive"/>
+        <pin num="11" name="SPICLK" type="passive"/>
+        <pin num="12" name="VDD" type="passive"/>
+        <pin num="13" name="VSS" type="passive"/>
+        <pin num="14" name="MISO" type="passive"/>
+        <pin num="15" name="VREFP" type="passive"/>
+        <pin num="16" name="~{SS1}/GPIO1" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Jumper.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="SamacSys_Parts">
+      <uri>G:/My Drive/KiCAD/library_components/SamacSys_Parts.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="5V">
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="C34" pin="1" pintype="passive"/>
+      <node ref="IC5" pin="2" pinfunction="VOUT" pintype="passive"/>
+      <node ref="IC7" pin="3" pinfunction="V+" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="2" name="AVDD_V3.3">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="12" pinfunction="AVDD2" pintype="passive"/>
+      <node ref="IC1" pin="29" pinfunction="AVDD1" pintype="passive"/>
+      <node ref="IC4" pin="4" pinfunction="~{SHDN}" pintype="passive"/>
+      <node ref="IC4" pin="6" pinfunction="VDD" pintype="passive"/>
+      <node ref="PS2" pin="2" pinfunction="VOUT" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="3" name="CLK+">
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="CLK-">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="CLKN">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="20" pinfunction="CLKN" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="CLKP">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="21" pinfunction="CLKP" pintype="passive"/>
+    </net>
+    <net code="7" name="CS">
+      <node ref="IC1" pin="8" pinfunction="~{CS}" pintype="passive"/>
+      <node ref="IC2" pin="9" pinfunction="~{SS0}/GPIO0" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="DAC_trigger">
+      <node ref="A1" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="J6" pin="8" pinfunction="8" pintype="passive"/>
+    </net>
+    <net code="9" name="DAC_trigger2">
+      <node ref="A1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="IC2" pin="16" pinfunction="~{SS1}/GPIO1" pintype="passive"/>
+    </net>
+    <net code="10" name="DVD_V3.3">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="23" pinfunction="CLKVDD" pintype="passive"/>
+      <node ref="IC1" pin="5" pinfunction="DVDD" pintype="passive"/>
+      <node ref="PS1" pin="2" pinfunction="VOUT" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="11" name="EN_AMP">
+      <node ref="J6" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J9" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="12" name="GND">
+      <node ref="A2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="A3" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="A4" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="C34" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="15" pinfunction="AGND_1" pintype="passive"/>
+      <node ref="IC1" pin="19" pinfunction="CLKGND" pintype="passive"/>
+      <node ref="IC1" pin="26" pinfunction="AGND_2" pintype="passive"/>
+      <node ref="IC1" pin="3" pinfunction="DGND" pintype="passive"/>
+      <node ref="IC1" pin="33" pinfunction="EP" pintype="passive"/>
+      <node ref="IC2" pin="13" pinfunction="VSS" pintype="passive"/>
+      <node ref="IC3" pin="3" pinfunction="GND" pintype="passive"/>
+      <node ref="IC4" pin="2" pinfunction="GND_1" pintype="passive"/>
+      <node ref="IC4" pin="3" pinfunction="GND_2" pintype="passive"/>
+      <node ref="IC4" pin="5" pinfunction="GND_3" pintype="passive"/>
+      <node ref="IC5" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="IC6" pin="2" pinfunction="GND_1" pintype="passive"/>
+      <node ref="IC6" pin="4" pinfunction="GND_2" pintype="passive"/>
+      <node ref="IC7" pin="6" pinfunction="V-" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="PS1" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="PS2" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="I2C_V3.3">
+      <node ref="A2" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="A3" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="A4" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="IC2" pin="12" pinfunction="VDD" pintype="passive"/>
+      <node ref="IC2" pin="15" pinfunction="VREFP" pintype="passive"/>
+      <node ref="IC3" pin="5" pinfunction="VCC" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J6" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="IOUT+">
+      <node ref="IC1" pin="27" pinfunction="IOUT_P" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="15" name="IOUT-">
+      <node ref="IC1" pin="28" pinfunction="IOUTN" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="16" name="LDO1">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="6" pinfunction="DLDO1" pintype="passive"/>
+    </net>
+    <net code="17" name="LDO2">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="4" pinfunction="DLDO2" pintype="passive"/>
+    </net>
+    <net code="18" name="MISO">
+      <node ref="IC1" pin="7" pinfunction="SDO/SDI2/DOUT" pintype="passive"/>
+      <node ref="IC2" pin="14" pinfunction="MISO" pintype="passive"/>
+    </net>
+    <net code="19" name="MOSI">
+      <node ref="IC1" pin="2" pinfunction="SDIO" pintype="passive"/>
+      <node ref="IC2" pin="10" pinfunction="MOSI" pintype="passive"/>
+    </net>
+    <net code="20" name="MUTE_AMP">
+      <node ref="J6" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J9" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="JP2" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(A1-C)">
+      <node ref="A1" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="IC1" pin="32" pinfunction="~{TRIGGER}" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(A2-C)">
+      <node ref="A2" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="IC2" pin="5" pinfunction="A2" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(A3-C)">
+      <node ref="A3" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="IC2" pin="6" pinfunction="A1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(A4-C)">
+      <node ref="A4" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="IC2" pin="7" pinfunction="A0" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(C21-Pad1)">
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(C33-Pad1)">
+      <node ref="C33" pin="1" pintype="passive"/>
+      <node ref="C35" pin="2" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(C33-Pad2)">
+      <node ref="C33" pin="2" pintype="passive"/>
+      <node ref="C36" pin="1" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(IC1-CAL_SENSE)">
+      <node ref="IC1" pin="24" pinfunction="CAL_SENSE" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(IC1-CLDO)">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="22" pinfunction="CLDO" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(IC1-FSADJ)">
+      <node ref="IC1" pin="25" pinfunction="FSADJ" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(IC2-~{INT})">
+      <node ref="IC2" pin="3" pinfunction="~{INT}" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(IC2-~{RESET})">
+      <node ref="IC2" pin="4" pinfunction="~{RESET}" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(IC2-~{SS2}{slash}GPIO2)">
+      <node ref="IC2" pin="8" pinfunction="~{SS2}/GPIO2" pintype="passive"/>
+      <node ref="IC3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(IC3-Y)">
+      <node ref="IC3" pin="4" pinfunction="Y" pintype="passive"/>
+      <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(IC5-VIN)">
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="IC5" pin="3" pinfunction="VIN" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(IC7-+IN)">
+      <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="IC7" pin="8" pinfunction="+IN" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(IC7-+OUT)">
+      <node ref="C32" pin="2" pintype="passive"/>
+      <node ref="IC7" pin="4" pinfunction="+OUT" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(IC7--IN)">
+      <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="IC7" pin="1" pinfunction="-IN" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(IC7--OUT)">
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="IC7" pin="5" pinfunction="-OUT" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(IC7-VOCM)">
+      <node ref="IC7" pin="2" pinfunction="VOCM" pintype="passive"/>
+      <node ref="JP3" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(PS1-VIN)">
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="PS1" pin="3" pinfunction="VIN" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(PS2-VIN)">
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="PS2" pin="3" pinfunction="VIN" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+    </net>
+    <net code="43" name="OUT1">
+      <node ref="C35" pin="1" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="44" name="OUT2">
+      <node ref="C36" pin="2" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="TP9" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="45" name="REF">
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="18" pinfunction="REFIO" pintype="passive"/>
+      <node ref="IC4" pin="1" pinfunction="OUT" pintype="passive"/>
+      <node ref="JP3" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="46" name="SCK">
+      <node ref="IC1" pin="1" pinfunction="SCLK" pintype="passive"/>
+      <node ref="IC2" pin="11" pinfunction="SPICLK" pintype="passive"/>
+    </net>
+    <net code="47" name="SCL">
+      <node ref="IC2" pin="2" pinfunction="SCL" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J6" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="J7" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J8" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="48" name="SDA">
+      <node ref="IC2" pin="1" pinfunction="SDA" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J6" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="49" name="V_6V">
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="IC6" pin="1" pinfunction="VOUT" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="50" name="V_18V">
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="IC6" pin="3" pinfunction="VIN" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="51" name="unconnected-(IC1-NC_1-Pad10)">
+      <node ref="IC1" pin="10" pinfunction="NC_1" pintype="passive"/>
+    </net>
+    <net code="52" name="unconnected-(IC1-NC_2-Pad11)">
+      <node ref="IC1" pin="11" pinfunction="NC_2" pintype="passive"/>
+    </net>
+    <net code="53" name="unconnected-(IC1-NC_3-Pad13)">
+      <node ref="IC1" pin="13" pinfunction="NC_3" pintype="passive"/>
+    </net>
+    <net code="54" name="unconnected-(IC1-NC_4-Pad14)">
+      <node ref="IC1" pin="14" pinfunction="NC_4" pintype="passive"/>
+    </net>
+    <net code="55" name="unconnected-(IC1-NC_5-Pad16)">
+      <node ref="IC1" pin="16" pinfunction="NC_5" pintype="passive"/>
+    </net>
+    <net code="56" name="unconnected-(IC1-NC_6-Pad17)">
+      <node ref="IC1" pin="17" pinfunction="NC_6" pintype="passive"/>
+    </net>
+    <net code="57" name="unconnected-(IC1-NC_7-Pad30)">
+      <node ref="IC1" pin="30" pinfunction="NC_7" pintype="passive"/>
+    </net>
+    <net code="58" name="unconnected-(IC1-NC_8-Pad31)">
+      <node ref="IC1" pin="31" pinfunction="NC_8" pintype="passive"/>
+    </net>
+    <net code="59" name="unconnected-(IC3-NC-Pad1)">
+      <node ref="IC3" pin="1" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(IC7-~{SHDN}-Pad7)">
+      <node ref="IC7" pin="7" pinfunction="~{SHDN}" pintype="passive"/>
+    </net>
+    <net code="61" name="unconnected-(J3-Pin_1-Pad1)">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="62" name="unconnected-(J3-Pin_2-Pad2)">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="63" name="~{RST}">
+      <node ref="IC1" pin="9" pinfunction="~{RESET}" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+  </nets>
+</export>
