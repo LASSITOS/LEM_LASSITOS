@@ -23,7 +23,7 @@ from dataADC import*
 
 
 # %%  Settings
-
+#------------------------------------
 filename='240420_005315'
 date=r'\20240419'
 
@@ -63,13 +63,14 @@ d_coils=2.027
 
 
 # %% plot section of raw data
-
+#------------------------------------
 t0=0 # start time
 t1=10  # stop time
 
 lookupSectionRaw(fileADC,t0,t1,SPS=19200,units='seconds',title='File:'+filename, channels=[1,2])
 
-# %% plot INS data
+# %% plot GPS and Laser data. Used for quality check and picking the times of the climb
+#------------------------------------
 dataINS=INSLASERdata(fileLASER,correct_Laser=True,
                      roll0=0.0,pitch0=0.0)
 
@@ -77,7 +78,8 @@ plot_summary(dataINS,getextent(dataINS),heading=False)
 
 
 
-# %% Load, merge and save data ADC +INS+ Laser
+# %% Load, merge and save data ADC +INS+ Laser  
+#------------------------------------------------
 datamean,dataINS,params=processDataLEM(path,filename,plot=True,savefile=True,
                           window=window,flowpass=flowpass,chunksize=38401,
                           Tx_ch='ch2', Rx_ch=['ch1'],
@@ -92,7 +94,8 @@ datamean,dataINS,params=processDataLEM(path,filename,plot=True,savefile=True,
 
 
 
-# %% Load processed data
+# %% Load processed data (data saved after running processDataLEM)
+#------------------------------------
 [datamean,dataINS,params]=sl.load_pkl(path+r'\LEM'+filename+'.pkl')
 
 
@@ -107,8 +110,8 @@ datamean=trim_data(start,stop,datamean,params)
 plot_QIandH(datamean,params,title='')
 
 
-# %%% calibration climbs
-
+# %%% calibration climbs: fit data to calibration climb
+#------------------------------------=-----------------
 data_climbs=Fit_climbs(datamean,params,
                t_str,t_stp, h_tot,w_depth=w_depth,shallow=True,
                w_cond=w_cond,d_coils=d_coils,
@@ -117,7 +120,7 @@ data_climbs=Fit_climbs(datamean,params,
 
 
 # %% invert data
-
+#--------------------
 Invert_data(datamean,params,
                w_cond=2408,d_coils=0,
                plot=True)
@@ -125,7 +128,7 @@ Invert_data(datamean,params,
 
 
 # %% plot inverted data
-
+#-------------------------
 
 fig,ax=pl.subplots(1,1,sharex=True)
 ax.plot(datamean.time,datamean.hw_invQ,'x',label='EM Q')
