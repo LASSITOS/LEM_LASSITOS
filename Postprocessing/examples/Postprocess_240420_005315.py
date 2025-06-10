@@ -12,7 +12,6 @@ from matplotlib.gridspec import GridSpec
 import pandas as pd
 import glob
 from cmcrameri import cm as cmCrameri
-from hampel import hampel
 import time
 
 scriptspath= 'C:\..\...'
